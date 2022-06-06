@@ -171,6 +171,7 @@ body {
     color: var(--main-text-color);
     background-color: #f5f4fa;
     letter-spacing: inherit;
+    padding: 6px 22px;
 }
 
 .btn-item:hover,
@@ -190,8 +191,7 @@ body {
 .examples-item {
     margin: 15px;
     display: block;
-    flex-basis: calc(100%/3 - 30px);
-    border-bottom: 1px solid #EEEEEE;
+    flex-basis: calc(100% / 3 - 30px);
 }
 
 .examples-img {
@@ -216,13 +216,16 @@ body {
 
 .card-content {
     padding: 20px 24px;
-    background: #FFFFFF;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 
 
 /* -----------------FOOTER----------------- */
 
-.footer>.conteiner {
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -269,6 +272,7 @@ body {
 /* -----------------INDEX HTML----------------- */
 
 .hero-title {
+    display: inline-block;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -277,16 +281,19 @@ body {
     text-transform: uppercase;
     color: var(--hero-link-color);
     margin-bottom: 30px;
+    max-width: 696px;
+    text-align: center;
 }
 
 .hero {
     background-color: #2f303a;
-    width: 1600px;
     margin: 0 auto;
 }
 
 .hero-content {
-    padding: 200px 452px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
 .hero-btn {
@@ -301,8 +308,8 @@ body {
     color: var(--hero-link-color);
     background-color: var(--link-color);
     min-width: 132px;
-    padding: 0;
     border: 0;
+    padding: 6px 22px 6px 22px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -337,6 +344,7 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--main-text-color);
+    margin-bottom: 10px;
 }
 
 .principles-text {
@@ -370,7 +378,7 @@ body {
 }
 
 
-/* -----TEAM------ */
+/* -----------------------TEAM-------------- */
 
 .team {
     background-color: #f5f4fa;
@@ -401,22 +409,22 @@ body {
     margin-bottom: 50px;
 }
 
+.team-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .team-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: var(--main-text-color);
+    margin-bottom: 10px;
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.18;
     color: var(--secondary-text-color);
-}
-
-.team-content {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 70px0 margin-left: 70px;
-    text-align: center;
 }
